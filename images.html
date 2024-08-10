@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Image Search</title>
+        <style>
+            #form
+            {
+                text-align: center;
+                margin: 200px;
+            }
+            a
+            {
+                position:absolute;
+                top:0;
+                right:0;
+                margin: 5px;
+            }
+            input[type="search"]
+            {
+                border-radius: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <form id="form" action="https://www.google.com/search?tbm=isch">
+            <p>
+            <input type="hidden" name="tbm" value="isch">
+            <input type="search" name="q">
+            </p>
+            <input type="submit" value="Image Search">
+        </form>
+        <div>
+            <a id="Links "href="index.html">Google Search</a>
+        </div>
+    </body>
+</html>
