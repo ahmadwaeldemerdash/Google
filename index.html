@@ -3,6 +3,7 @@
     <head>
         <title>Search</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
         <style>
             #Links
             {
@@ -14,19 +15,21 @@
             {
                 margin: 5px;
             }
-            .long_input
+            .form_input
             {
-                width: 500px;
+                width: 575px;
                 height: 45px;
                 border-radius: 50px;
                 background: #202124;
                 border: 1px solid #5f6368;
+                font-family: Arial, sans-serif;
 
             }
             .backgroundcolor 
             {
-                background: #202124;
+                background-color: #303134;
             }
+           
             .container {
                 display: flex;
                 justify-content: center;
@@ -52,12 +55,21 @@
             {
                 border: 1px solid #5f6368;
             }
+            .search-icon {
+                position: absolute;
+                right: 10px;
+                top: 50%;
+                transform: translateY(-50%);
+                color: #fff;
+                }
+
         </style>
     </head>
     <body class="backgroundcolor">
         <div class="container">
         <form id="form" action="https://google.com/search">
-            <div><input type="search" name="q" class="long_input"></div>
+            <div><input type="search" name="q" class="form_input"></div>
+            <i class="fas fa-search search-icon"></i>
             <div class="button"> 
             <p>
                 <input class="button" type="submit" value="Google Search">
@@ -65,7 +77,6 @@
             </p>
         </div>
            
-        
         </form>
         </div>
     
