@@ -3,7 +3,7 @@
     <head>
         <title>Search</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+     
 
         <style>
             #Links
@@ -22,7 +22,10 @@
                 height: 45px;
                 border-radius: 50px;
                 background: #202124;
+                font-size: 14px;
                 border: 1px solid #5f6368;
+                font-family: Arial, sans-serif;
+                padding: 20px;
 
             }
             .backgroundcolor 
@@ -63,6 +66,25 @@
             {
                 width: 144px;
             }
+            #input
+            {
+                font-size: 17px;
+            }
+           
+            #input:hover
+            {
+                background-color: #28292a;
+                
+            }
+            #input:focus {
+            outline: none; 
+            }
+
+            #input:focus {
+                border-color: #28292a !important;
+                color: white;
+            }
+
     
         </style>
     </head>
@@ -73,8 +95,7 @@
                 <img src="https://www.google.com/logos/doodles/2024/paris-games-conclude-6753651837110568-la202124.gif">
                 </p>
             <div>
-                <input type="search" name="q" class="long_input">
-                <i class="fas fa-search search-icon"></i>
+                <input id="input" type="search" name="q" class="long_input" placeholder="Search..">
             </div>
             
             <div class="button"> 
