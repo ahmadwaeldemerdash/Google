@@ -19,6 +19,9 @@
                 width: 500px;
                 height: 45px;
                 border-radius: 50px;
+                background: #202124;
+                border: 1px solid #5f6368;
+
             }
             .backgroundcolor 
             {
@@ -30,13 +33,39 @@
                 align-items: center;
                 height: 100vh;
             }
+            .button
+            {
+                width: 125px;
+                height: 36px;
+                background-color: #303134;
+                border: #303134;
+                border-radius: 4px;
+                font-family: Arial,sans-serif;
+                color: white;
+                font-size: 14px;
+                display: inline;
+                margin: 4px;
+                text-align: center;
+                cursor: pointer;
+            }
+            input[type="submit"]:hover
+            {
+                border: 1px solid #5f6368;
+            }
         </style>
     </head>
     <body class="backgroundcolor">
         <div class="container">
         <form id="form" action="https://google.com/search">
             <div><input type="search" name="q" class="long_input"></div>
-            <p><input type="submit" value="Google Search"></p>
+            <div class="button"> 
+            <p>
+                <input class="button" type="submit" value="Google Search">
+                <input type="submit" class="button" value="I'm Feeling Lucky">
+            </p>
+        </div>
+           
+        
         </form>
         </div>
     
