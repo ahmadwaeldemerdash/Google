@@ -140,11 +140,35 @@
    .box input
     {
         background: transparent;
-        width: 600px;
+        width: 590px;
         border: 1px solid #5f6368;
-        height: 30px;
+        height: 25px;
     }
     #input
     {
-        width: 606px;
+        width: 600px;
+        height: 30px;
+        margin-left: 0px;
+    }
+    .box span {
+        font-family: Arial, sans-serif;
+        font-size: 13px;
+        color: rgba(255, 255, 255, 0.595);
+        top: 0;
+        left: 0;
+        margin: 65px;
+        margin-left: -150px;
+        margin-top: 180px;
+    }
+    #as_epq
+    {
+        margin-left: -56px;
+    }
+    #as_oq
+    {
+        margin-left: -20px; 
+    }
+    #as_eq
+    {
+        margin-left: -26px; 
     }
