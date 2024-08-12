@@ -67,11 +67,84 @@
     border-color: #28292a !important;
     color: white;
     }
-    span
+    #image
     {
         color: #4487f6;
         font-size: 16px;
         font-family: Arial, sans-serif;
         white-space: nowrap;
         margin-left: -60px;
+    }
+    #logo
+    {
+        color: #4487f6;
+        font-size: 16px;
+        font-family: Arial, sans-serif;
+        white-space: nowrap;
+        margin-left: -60px;
+    }
+    .Advanced_Search
+    {
+        font-size: 20px;
+        font-family: Arial, sans-serif;
+        color: #f28b82;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 65px;
+        margin-left: 40px;
+        margin-top: 80px;
+        
+    }
+    .border
+    {
+        border: 1px solid rgba(0, 0, 0, 0.439);
+        width: 3000px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 125px;
+        margin-left: 0px;
+    }
+    .find_pages
+    {
+        color: rgba(255, 255, 255, 0.843);
+        font-family: Arial, sans-serif;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 65px;
+        margin-left: 40px;
+        margin-top: 180px;
+        font-size: 16px;
+    }
+    .google
+    {
+        color: rgba(255, 255, 255, 0.841);
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 20px;
+        font-size: 23px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .box 
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 65px;
+        margin-left: 200px;
+        margin-top: 200px;
+    }
+   .box input
+    {
+        background: transparent;
+        width: 600px;
+        border: 1px solid #5f6368;
+        height: 30px;
+    }
+    #input
+    {
+        width: 606px;
     }

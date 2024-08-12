@@ -2,19 +2,36 @@
 <html lang="en">
     <head>
         <title>Advanced Search</title>
-        <style>
-            div
-            {
-                float: right;
-            }
-        </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
     </head>
-    <body>
-        <form action="https://www.google.com/advanced_search">
-            <input type="text" name="q">
-            <input type="submit" value="Advanced Search">
+    <body class="backgroundcolor">
+        <div class="container">
+        <form id="form" action="https://www.google.com/search">
+            <label class="google">Google</label>
+        
+            <div>
+                <label class="Advanced_Search">Advanced Search</label>
+                <div class="border">
+                </div>
+                <span class="find_pages">Find pages with..</span>
+                <div class="box">
+                    <p><input id="input" type="search" name="q"></p>
+                    <p><input type="text" id="as_epq" name="as_epq"></p>
+                    <p><input type="text" id="as_oq" name="as_oq"></p>
+                    <p><input type="text" id="as_eq" name="as_eq"></p>
+                    
+                <button type="submit" value="Advanced Search">
+                </div>
+             
+            </div>
+            </p>
+        </div>
         </form>
-        <div>
+        </div>
+        <div class="link_container" >
             <a href="index.html">Google Search</a>
         </div>
     </body>
