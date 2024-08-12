@@ -98,7 +98,7 @@
     }
     .border
     {
-        border: 1px solid rgba(0, 0, 0, 0.439);
+        border: 1px solid rgba(0, 0, 0, 0.302);
         width: 3000px;
         position: absolute;
         top: 0;
@@ -143,6 +143,9 @@
         width: 590px;
         border: 1px solid #5f6368;
         height: 25px;
+        color: white;
+        font-size: 17px;
+        font-family: Arial, sans-serif;
     }
     #input
     {
@@ -171,4 +174,19 @@
     #as_eq
     {
         margin-left: -26px; 
+    }
+    #advanced_button
+    {
+        width: 150px;
+        height: 30px;
+        background-color: #8ab4f8;
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif; 
+        padding: 2px;
+        border-radius: 2px;
+        border: 1px solid #8ab4f8;
+    }
+    #advanced_button:hover
+    {
+        background-color: #b9d2fe;
     }
