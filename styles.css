@@ -14,7 +14,7 @@
     text-decoration: underline;
     }
     .long_input {
-    width: 575px;
+    width: 585px;
     height: 45px;
     border-radius: 50px;
     background: #202124;
@@ -67,5 +67,11 @@
     border-color: #28292a !important;
     color: white;
     }
-
-    
+    span
+    {
+        color: #4487f6;
+        font-size: 16px;
+        font-family: Arial, sans-serif;
+        white-space: nowrap;
+        margin-left: -60px;
+    }
