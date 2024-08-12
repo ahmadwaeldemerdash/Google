@@ -6,15 +6,23 @@
      
 
         <style>
-            #Links
+            .link_container
             {
-                position:absolute;
-                top:0;
-                right:0;
+                position: absolute;
+                top: 15px;
+                right: 0;
             }
-            a[href="advanced.html"]
+            .link_container > a
             {
-                margin: 5px;
+                color: white;
+                margin: 7px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 18px;
+                text-decoration: none;
+            }
+            .link_container > a:hover
+            {
+                text-decoration: underline;
             }
             .long_input
             {
@@ -106,9 +114,9 @@
         </div>
         </form>
         </div>
-        <div id="Links">
-            <p><a href="images.html">Image Search</a></p>
+        <div class="link_container" >
+            <a href="images.html">Image Search</a>
             <a href="advanced.html">Advanced Search</a>
-        </div>
+           
     </body>
 </html>
