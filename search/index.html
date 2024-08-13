@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body class="backgroundcolor">
+        <div class="container">
+        <form id="form" action="https://google.com/search">
+                <p>
+                <img src="https://www.google.co.uk/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png">
+                </p>
+            <div>
+                <input id="input" type="search" name="q" class="long_input" placeholder="Search...">
+            </div>
+            
+            <div class="button"> 
+            <p>
+                <input class="button" type="submit" value="Google Search">
+                <input type="submit" class="button" value="I'm Feeling Lucky" id="Lucky">
+            </p>
+        </div>
+        </form>
+        </div>
+        <div class="link_container" >
+            <a href="images.html">Image Search</a>
+            <a href="advanced.html">Advanced Search</a>
+        
+        <script>
+            document.getElementById("Lucky").onclick = function()
+            {
+                var form = document.getElementById("form");
+                var input = document.createElement("input");
+                input.type = "hidden";
+                input.name = "btnI";
+                input.value = "I";
+                form.appendChild(input);
+            }
+        </script>
+    </body>
+</html>
