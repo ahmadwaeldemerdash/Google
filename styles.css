@@ -1,4 +1,4 @@
-    .link_container {
+.link_container {
     position: absolute;
     top: 15px;
     right: 0;
@@ -163,6 +163,12 @@
         margin-left: -150px;
         margin-top: 180px;
     }
+    #all
+    {
+        margin-left: 2px;
+        height: 32px;
+        width: 598px;
+    }
     #as_epq
     {
         margin-left: -56px;
@@ -173,7 +179,7 @@
     }
     #as_eq
     {
-        margin-left: -26px; 
+        margin-left: -28px; 
     }
     #advanced_button
     {
